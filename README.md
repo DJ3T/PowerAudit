@@ -11,7 +11,7 @@ PowerAudit is a non-intrusive, offline security audit script for Windows systems
 It checks key security configurations — firewall, antivirus, RDP, SMBv1, open ports, account policies — and displays a detailed report directly in the terminal.
 Originally designed for Bash Bunny or Rubber Ducky payloads, but runs standalone as well.
 
-⸻
+
 
 ## 📊 Features
 	•	✅ Firewall Status Check (Domain / Private / Public)
@@ -39,7 +39,7 @@ Originally designed for Bash Bunny or Rubber Ducky payloads, but runs standalone
 	•	🛠️ Offline, Safe, and Read-Only
  
 
- 📷 Example Report
+ ## Example Report
  ```
 ===== Vulnerability Scan Report for WIN10-SECURE =====
 OS Version: Windows 10 Pro (Version 10.0.19045)
@@ -62,7 +62,7 @@ Open Listening Ports:
 ===== END OF SECURITY AUDIT =====
 ```
 
-Standalone
+## Standalone
 	1.	Copy ComplianceAudit.ps1 to the target machine.
 	2.	Open PowerShell (as Administrator recommended).
 	3.	Run: 
@@ -86,7 +86,7 @@ LED FINISH
 
 (Adapt paths as needed.)
 
-⚠️ Disclaimer
+## ⚠️ Disclaimer
 
 PowerAudit is strictly intended for:
 	•	Authorized use
