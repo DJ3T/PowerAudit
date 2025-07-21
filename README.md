@@ -1,11 +1,11 @@
-#PowerAudit
+# PowerAudit
 
 Offline Windows Compliance & Security Scanner
 A lightweight, PowerShell-based tool for fast local vulnerability assessment.
 
 ⸻
 
-##What is PowerAudit?
+## What is PowerAudit?
 
 PowerAudit is a non-intrusive, offline security audit script for Windows systems.
 It checks key security configurations — firewall, antivirus, RDP, SMBv1, open ports, account policies — and displays a detailed report directly in the terminal.
