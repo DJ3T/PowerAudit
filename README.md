@@ -14,29 +14,29 @@ Originally designed for Bash Bunny or Rubber Ducky payloads, but runs standalone
 
 
 ## 📊 Features
-	•	✅ Firewall Status Check (Domain / Private / Public)
+•	✅ Firewall Status Check (Domain / Private / Public)
  
-	•	✅ Antivirus Detection & Status
+•	✅ Antivirus Detection & Status
  
-	•	✅ OS Update Level (Latest Hotfix Installed)
+•	✅ OS Update Level (Latest Hotfix Installed)
  
-	•	✅ SMBv1 Protocol Detection (Legacy / Unsafe)
+•	✅ SMBv1 Protocol Detection (Legacy / Unsafe)
  
-	•	✅ RDP Status Check
+•	✅ RDP Status Check
  
-	•	✅ User Account Control (UAC) Status
+•	✅ User Account Control (UAC) Status
  
-	•	✅ Guest Account Status
+•	✅ Guest Account Status
  
-	•	✅ Passwordless Accounts Detection
+•	✅ Passwordless Accounts Detection
  
-	•	✅ Open TCP Ports & Listening Services
+•	✅ Open TCP Ports & Listening Services
  
-	•	✅ Built-in Administrator Status
+•	✅ Built-in Administrator Status
  
-	•	🔒 No Data Stored – Report shown in-terminal only
+•	🔒 No Data Stored – Report shown in-terminal only
  
-	•	🛠️ Offline, Safe, and Read-Only
+•	🛠️ Offline, Safe, and Read-Only
  
 
  ## Example Report
@@ -63,17 +63,17 @@ Open Listening Ports:
 ```
 
 ## Standalone
-	1.	Copy ComplianceAudit.ps1 to the target machine.
-	2.	Open PowerShell (as Administrator recommended).
-	3.	Run: 
+1.	Copy ComplianceAudit.ps1 to the target machine.
+2.	Open PowerShell (as Administrator recommended).
+3.	Run: 
  ```
  powershell -ExecutionPolicy Bypass -File ComplianceAudit.ps1
  ```
   4.	View the compliance report directly in the terminal.
      
-Bash Bunny Deployment (Optional)
-	1.	Place ComplianceAudit.ps1 on your Bash Bunny storage.
-	2.	Use the following in your payload.txt:
+## Bash Bunny Deployment (Optional)
+1.	Place ComplianceAudit.ps1 on your Bash Bunny storage.
+2.	Use the following in your payload.txt:
  ```
 LED SETUP
 ATTACKMODE HID
@@ -82,20 +82,27 @@ QUACK STRING powershell -WindowStyle hidden -ExecutionPolicy Bypass -File C:\Win
 QUACK ENTER
 LED FINISH
 ```
-  3.	Payload injects script via HID keyboard emulation.
+3.	Payload injects script via HID keyboard emulation.
 
 (Adapt paths as needed.)
 
 ## ⚠️ Disclaimer
 
 PowerAudit is strictly intended for:
-	•	Authorized use
-	•	Security auditing
-	•	Compliance assessments
+
+•	Authorized use
+ 
+•	Security auditing
+ 
+•	Compliance assessments
+ 
 Do not deploy this tool on machines without explicit permission.
 
 This script is:
-	•	Read-only (no system modifications)
-	•	Offline (no external data sent)
-	•	Provided as-is, without warranty.
+
+•	Read-only (no system modifications)
+	
+•	Offline (no external data sent)
+	
+•	Provided as-is, without warranty.
 
