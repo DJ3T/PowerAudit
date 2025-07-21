@@ -3,7 +3,7 @@
 Offline Windows Compliance & Security Scanner
 A lightweight, PowerShell-based tool for fast local vulnerability assessment.
 
-⸻
+
 
 ## What is PowerAudit?
 
@@ -13,19 +13,31 @@ Originally designed for Bash Bunny or Rubber Ducky payloads, but runs standalone
 
 ⸻
 
-📊 Features
+## 📊 Features
 	•	✅ Firewall Status Check (Domain / Private / Public)
+ 
 	•	✅ Antivirus Detection & Status
+ 
 	•	✅ OS Update Level (Latest Hotfix Installed)
+ 
 	•	✅ SMBv1 Protocol Detection (Legacy / Unsafe)
+ 
 	•	✅ RDP Status Check
+ 
 	•	✅ User Account Control (UAC) Status
+ 
 	•	✅ Guest Account Status
+ 
 	•	✅ Passwordless Accounts Detection
+ 
 	•	✅ Open TCP Ports & Listening Services
+ 
 	•	✅ Built-in Administrator Status
+ 
 	•	🔒 No Data Stored – Report shown in-terminal only
+ 
 	•	🛠️ Offline, Safe, and Read-Only
+ 
 
  📷 Example Report
  ```
