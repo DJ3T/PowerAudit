@@ -3,7 +3,8 @@
 Offline Windows Compliance & Security Scanner
 A lightweight, PowerShell-based tool for fast local vulnerability assessment.
 
-
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+![PowerShell](https://img.shields.io/badge/PowerShell-Ready-blue)
 
 ## What is PowerAudit?
 
