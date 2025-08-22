@@ -274,7 +274,6 @@ if ($listeners) {
     $report.AppendLine("Open Listening Ports: <None or access denied>") | Out-Null
 }
 
-# 9. (Optional) Additional checks can be added here, e.g., ensure certain services are or are not running, etc.
 
 # Output the report to screen
 Write-Host $report.ToString()
