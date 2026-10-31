@@ -12,32 +12,6 @@ PowerAudit is a non-intrusive, offline security audit script for Windows systems
 It checks key security configurations — firewall, antivirus, RDP, SMBv1, open ports, account policies — and displays a detailed report directly in the terminal.
 Originally designed for Bash Bunny or Rubber Ducky payloads, but runs standalone as well.
 
-
-
-## 📊 Features
-•	✅ Firewall Status Check (Domain / Private / Public)
- 
-•	✅ Antivirus Detection & Status
- 
-•	✅ OS Update Level (Latest Hotfix Installed)
- 
-•	✅ SMBv1 Protocol Detection (Legacy / Unsafe)
- 
-•	✅ RDP Status Check
- 
-•	✅ User Account Control (UAC) Status
- 
-•	✅ Guest Account Status
- 
-•	✅ Passwordless Accounts Detection
- 
-•	✅ Open TCP Ports & Listening Services
- 
-•	✅ Built-in Administrator Status
- 
-•	🔒 No Data Stored – Report shown in-terminal only
- 
-•	🛠️ Offline, Safe, and Read-Only
  
 
  ## Example Report
@@ -86,24 +60,4 @@ LED FINISH
 3.	Payload injects script via HID keyboard emulation.
 
 (Adapt paths as needed.)
-
-## ⚠️ Disclaimer
-
-PowerAudit is strictly intended for:
-
-•	Authorized use
- 
-•	Security auditing
- 
-•	Compliance assessments
- 
-Do not deploy this tool on machines without explicit permission.
-
-This script is:
-
-•	Read-only (no system modifications)
-	
-•	Offline (no external data sent)
-	
-•	Provided as-is, without warranty.
 
